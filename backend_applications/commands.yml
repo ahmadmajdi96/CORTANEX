@@ -1,0 +1,10 @@
+commands:
+  create_user:
+    module: commands.create_user
+    handler: create_user
+  get_user_by_email:
+    module: commands.get_user_by_email
+    handler: get_user_by_email
+  create_machine:
+    module: commands.creare_machine
+    handler: create_machine

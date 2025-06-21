@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  temporal:
+    image: temporalio/auto-setup
+    ports:
+      - "7233:7233"
+    environment:
+      - DB=sqlite
