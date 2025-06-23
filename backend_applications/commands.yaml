@@ -8,3 +8,9 @@ commands:
   create_machine:
     module: commands.creare_machine
     handler: create_machine
+  create_client:
+    module: commands.create_client
+    handler: create_machine
+  create_workflow:
+    module: commands.create_workflow
+    handler: create_workflow
